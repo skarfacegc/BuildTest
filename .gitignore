@@ -1,1 +1,3 @@
 valgrind_test
+cover_db/*
+test_results.xml

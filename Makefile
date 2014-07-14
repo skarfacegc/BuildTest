@@ -2,7 +2,7 @@ valgrind_test: valgrind_test.c
 	gcc -o valgrind_test valgrind_test.c
 
 clean:
-	rm -f valgrind_test cover_db test_results.xml
+	rm -rf valgrind_test cover_db test_results.xml
 
 auto_test:
 	cover --delete
